@@ -20,10 +20,10 @@ int main(int argc, char *argv[])
     QWidget *centralWidget = new QWidget(&mainWindow);
     QVBoxLayout *layout = new QVBoxLayout(centralWidget);
     
+    //labels and buttons
     QLabel *label = new QLabel("Hello, Qt6 World!");
     label->setAlignment(Qt::AlignCenter);
     layout->addWidget(label);
-    
     QPushButton *button = new QPushButton("Click Me");
     layout->addWidget(button);
     
